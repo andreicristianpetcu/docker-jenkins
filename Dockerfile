@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:14.04
 MAINTAINER Bjørn Magnus Mathisen <bjornmagnus@me.com>
 RUN apt-get update
 RUN apt-get -y upgrade
