@@ -2,7 +2,7 @@ FROM ubuntu:14.04
 MAINTAINER Bjørn Magnus Mathisen <bjornmagnus@me.com>
 RUN apt-get update
 RUN apt-get -y upgrade
-RUN apt-get -y install python-software-properties
+RUN apt-get -y install python-software-properties software-properties-common
 RUN add-apt-repository ppa:webupd8team/java -y
 RUN apt-get update && apt-get clean
 RUN apt-get -y upgrade
